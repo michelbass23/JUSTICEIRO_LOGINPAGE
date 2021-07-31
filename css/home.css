@@ -1,0 +1,52 @@
+body{
+        background-color: black;
+}
+  h1{
+      text-align: center;
+      color: lavender;
+  }
+    
+
+  @import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
+*{
+  margin: 0 auto;
+  padding: 0;
+}
+        .logo{
+        
+            height: 700px;
+            text-align: center;
+            align-items: center;
+            padding: 0px;
+            justify-content: center;
+            padding-left: 425px;
+        }
+         
+        .imgModal{
+          width: 500px;
+          height: 100px;
+          float: right;
+        }
+
+      .historia{
+        color: #ffff;
+        text-transform: uppercase;
+        text-shadow: unset;
+        margin-left: -100px;
+        width: 200px;
+      }
+
+      icon{
+        color: white;
+      }
+      
+      .exit{
+        color: #ffff;
+        text-transform: uppercase;
+        text-shadow: unset;
+        margin-left: -100px;
+        width: 200px;
+        height: 37px;
+        margin-top: 3px;
+      }

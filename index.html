@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap-theme.min.css">
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <title>Justiceiro Login</title>
+</head>
+<body>
+    <main class="login">   
+         <div class="login_container">
+            <h1 class="login_title">
+    <img class="logo" src="./img/logo.png">
+        </h1>       
+ <form class="login_form">
+ <input class="login_input" type="email" name="email"
+ placeholder="Insira seu email"id='inputEmail'>
+     <span class="login_input_border"></span>
+          <input class="login_input"
+           type="password" 
+           placeholder="Insira sua senha" name="senha" id="inputPassword" >
+            <span class="login_input-border"></span>
+ </form>
+       
+                <button type="submit" onclick="login()"
+                 class="login_submit" id="btnEntrar">Entrar</button>
+       
+                <center>
+            <a class="login_reset" href="#" style="text-decoration: none;">Esqueceu a senha ?</a>
+           </center>          
+         </div>
+    </div>
+    </main>
+    <script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-analytics.js"></script>
+
+    <script  src="./js/app.js"></script>
+    <script src="./js/authentication.js"></script>
+</body>
+</html>
